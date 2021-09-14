@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+[image1]: https://github.com/drewmitchner/Udacity_DeepRL_Project1_Navigation/blob/main/Banana_Navigation_ScorePerEpisode.PNG "Learning Plot"
 
 # Navigation Project Report
 
@@ -38,7 +38,7 @@ The hyperparameters used were similar to those used for the DQN-lesson excersize
 
 A plot of score per episode shows how the agent learned over time.
 
-
+![Learning Plot][image1]
 
 After 800 episodes the agent was able to achieve an average score of +15.46 over 100 episodes. The agent took about 540 episodes to reach an average score of +13 over 100 episodes, the threshold at which the environment was deemed "solved".
 
